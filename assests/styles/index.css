@@ -144,4 +144,110 @@ nav div a{
     padding:16px;
     margin-top:12px;
 }
+#contactsection{
+    padding-left: var(--padding-horizontal);
+    padding-right: var(--padding-horizontal);
+    height: 60vh;
+}
+#contactsection>form>h3{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: var(--primary-color);
+    
+}
+#contactsection>form{
+    padding: 24px;
+    background-color: var(--secondary-color);
+    margin: auto;
+    width: 60vw;
+    border-radius: 30px;
+}
+#contactsection>form>div>div{
+    padding-left: 26px;
+    padding-right: 26px;
+    margin-top: 30px;
+    display: flex-col;
+    
+}
+
+#contactsection>form>.userMessage{
+    display: flex;
+    justify-content: center;
+}
+
+#contactsection>form>.userMessage>textarea{
+    width: 600px;
+
+}
+
+#contactsection>form>.userNameEmail, .userAgeBirthday{
+    display: flex;
+    
+}
+#contactsection>form>.userNameEmail>.userAgeBirthday>div> label{
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+
+#contactsection>form>div>label{
+    font-weight: 500;
+    margin-right: 20px;
+    color: white;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+#contactsection>form>div>div>input{
+    all: unset;
+    border-radius: 12px;
+    background-color:white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top:3px ;
+    height:30px ;
+    font-size: 16px;
+    color: gray;
+}
+#contactsection>form>div>textarea{
+    all: unset;
+    border-radius: 12px;
+    background-color:white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 16px;
+    color: gray;
+    width: 400px;
+}
+#button{
+    width: 100%;
+    background-color:greenyellow;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+    border-radius: 20px;
+    transition: 2s;
+    
+    
+}
+#button:hover{
+     background-color:black;
+    cursor:pointer;
+    color: white;
+}
+
+
+
+
+
+
 
