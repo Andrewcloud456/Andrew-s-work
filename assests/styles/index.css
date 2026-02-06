@@ -5,7 +5,7 @@
     --padding-horizontal: 100px;
     --card-background-color:#ffeff2;
 
-bady, h1, h3{
+body, h1, h3{
     margin: 0%;
     font-family: "Poppins", sans-serif;
 }
